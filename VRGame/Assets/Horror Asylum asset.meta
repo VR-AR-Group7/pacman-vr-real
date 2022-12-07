@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:VRGame/Assets/Horror Asylum asset.meta
 guid: d9dcc0fa4f93d604d916f26e622bc9d2
 folderAsset: yes
+========
+guid: db638033828fb44a48e07c36de1daf77
+>>>>>>>> 63d18ea445fb190a2a30f03ed7ec9d762a94ca32:VRGame/Assets/day01-pacman-maze/source/TEXTURES/MAZE.mtl.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

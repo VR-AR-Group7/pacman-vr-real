@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:VRGame/Assets/monster_scavenger/monster_scavenger.unity.meta
 guid: 78afaae24bea80048bdd688b4433fc5c
+========
+guid: a7e5b3a327750ae4689ea12820a55236
+>>>>>>>> 63d18ea445fb190a2a30f03ed7ec9d762a94ca32:VRGame/Assets/LowlyPoly/Stylized Stones Texture/Scene/Stylized Stones Texture.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
