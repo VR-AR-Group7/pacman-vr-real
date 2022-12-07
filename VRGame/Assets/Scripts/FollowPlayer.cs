@@ -10,6 +10,11 @@ public class FollowPlayer : MonoBehaviour
     public float wanderRadius;
     public NavMeshAgent agent;
     private float timer;
+    public GameObject ghost;
+    public float distanceFromPlayer;
+
+
+    
 
 
     // Start is called before the first frame update
@@ -17,6 +22,7 @@ public class FollowPlayer : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         timer = wanderTimer;
+        
     }
 
     // Update is called once per frame
@@ -26,7 +32,7 @@ public class FollowPlayer : MonoBehaviour
         
 
         Vector3 positionFromPlayer = player.position - transform.position;
-        if (positionFromPlayer.magnitude < 10)
+        if (positionFromPlayer.magnitude < distanceFromPlayer)
         {
             Vector3 direction = player.position - transform.position;
             Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
@@ -39,13 +45,6 @@ public class FollowPlayer : MonoBehaviour
             agent.SetDestination(newPos);
             timer = 0;
         }
-
-        // if bumping into collider then turn around
-        // if (agent.velocity.magnitude < 0.1f)
-        // {
-        //     transform.Rotate(0, 180, 0);
-        //     SetNewPath(agent, wanderRadius, timer);
-        // }
     }   
 
     public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layermask)
@@ -60,7 +59,4 @@ public class FollowPlayer : MonoBehaviour
 
         return navHit.position;
     }
-
-
-
 }
