@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ghost
   - ghostR
+  - Ghost
+  - Consumable
   layers:
   - Default
   - TransparentFX

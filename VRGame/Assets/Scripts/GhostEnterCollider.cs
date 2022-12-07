@@ -17,17 +17,17 @@ public class GhostEnterCollider : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Ghost")
-        {
-            Debug.Log("Ghost entered");
-            boxCollider.enabled = false;
-        }
-        else {
-            boxCollider.enabled = true;   
-        }
-        boxCollider.enabled = true;
-    }
+    // void OnTriggerEnter(Collider other)
+    // {
+    //     if (other.gameObject.tag == "Ghost")
+    //     {
+    //         Debug.Log("Ghost entered");
+    //         boxCollider.enabled = false;
+    //     }
+    //     else {
+    //         boxCollider.enabled = true;   
+    //     }
+    //     boxCollider.enabled = true;
+    // }
 
 }
