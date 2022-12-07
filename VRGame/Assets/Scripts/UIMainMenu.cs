@@ -17,7 +17,6 @@ public class UIMainMenu : MonoBehaviour
 
     public void DisableMenu()
     {
-        // Debug.Log(_mainMenu.activeSelf);
         _mainMenu.SetActive(false);
         _selectLevelMenu.SetActive(true);
     }
