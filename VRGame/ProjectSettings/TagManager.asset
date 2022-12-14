@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - MazeGeo
+  - ghost
+  - ghostR
   - Ghost
+  - Consumable
   layers:
   - Default
   - TransparentFX

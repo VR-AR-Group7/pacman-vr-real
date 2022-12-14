@@ -14,18 +14,20 @@ public class GhostEnterCollider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "Ghost")
-        {
-            boxCollider.enabled = false;
-        }
-        else if(other.gameObject.tag == "Player")
-        {
-            boxCollider.enabled = true;
-        }
-    }
+    // void OnTriggerEnter(Collider other)
+    // {
+    //     if (other.gameObject.tag == "Ghost")
+    //     {
+    //         Debug.Log("Ghost entered");
+    //         boxCollider.enabled = false;
+    //     }
+    //     else {
+    //         boxCollider.enabled = true;   
+    //     }
+    //     boxCollider.enabled = true;
+    // }
+
 }
