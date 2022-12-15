@@ -17,6 +17,7 @@ public class FollowPlayer : MonoBehaviour
     public AudioSource killMusic;
 
     public EndGameKeem endGameKeem;
+    
 
 
 

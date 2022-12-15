@@ -8,6 +8,8 @@ TagManager:
   - ghostR
   - Ghost
   - Consumable
+  - Speedincrease
+  - monster
   layers:
   - Default
   - TransparentFX
