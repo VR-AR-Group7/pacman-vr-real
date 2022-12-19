@@ -13,4 +13,4 @@
    This scene created a whole know mening of horror maze. This scene has the full immersion of a horror game within VR.
    
    this supports all VR headsets 
-   tested on 2 different head sets  Oculus Quest 2 and Rift.  
+   tested on 2 different head sets  Oculus Quest 2 and Rift. To run click on the start button at the top of the Unity editor
